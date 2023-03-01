@@ -19,19 +19,17 @@
       a {
         color: $m-vermillon;
         text-decoration: none;
-        i {
-          font-size: 1.75rem;
-          &:hover {
-            color: $m-vermillon;
-          }
+
+        &:hover {
+          color: $m-vermillon-bright;
         }
       }
     }
   }
 
   span {
-    color: $m-vermillon;
-    font-weight: bolder;
+    color: rgba(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
     font-style: italic;
   }
 }

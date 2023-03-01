@@ -1,4 +1,4 @@
-import EventsByCityComponent from '../../../src/components/events/events-by-city-component'
+import EventsByCityComponent from '../../../src/components/events/EventsByCityComponent'
 import formatCityName from '../../helpers/formatCityName'
 
 const EventsByCityPage = ({ cityEvents }) => {

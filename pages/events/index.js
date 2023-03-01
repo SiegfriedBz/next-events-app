@@ -1,5 +1,5 @@
 // import styles from '@/styles/Home.module.scss'
-import EventsComponent from '../../src/components/events/events-component'
+import EventsComponent from '../../src/components/events/EventsComponent'
 
 const EventsPage = ({ cities }) => {
 

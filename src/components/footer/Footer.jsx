@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <>
             <footer className='footer'>
-                <span>@2023</span>
+                <span>@2023 Next Events</span>
                 <ul>
                     <li>
                         <a href="https://ch.linkedin.com/in/siegfriedbozza">

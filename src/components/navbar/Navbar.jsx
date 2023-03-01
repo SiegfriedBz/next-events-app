@@ -1,5 +1,5 @@
-import logo from '../../../public/next.svg'
 import Link from 'next/link'
+// import Image from 'next/image'
 
 const Navbar = () => {
     return (
@@ -7,7 +7,12 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid px-1">
                     {/*<a className="navbar-brand" href="/">*/}
-                    {/*    <img src={logo} alt="logo" className="logo" />*/}
+                    {/*    <Image*/}
+                    {/*        width={50}*/}
+                    {/*        height={50}*/}
+                    {/*        src='/next.svg'*/}
+                    {/*        alt="logo"*/}
+                    {/*        className="logo" />*/}
                     {/*</a>*/}
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -17,7 +22,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link className="nav-link ps-0 active" aria-current="page" href="/">Home</Link>
+                                <Link className="nav-link ps-0 active nav-home-text" aria-current="page" href="/">Home</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" href="/events">Events</Link>

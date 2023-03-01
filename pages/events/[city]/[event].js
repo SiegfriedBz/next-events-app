@@ -1,4 +1,4 @@
-import EventComponent from "@/src/components/events/event-component";
+import EventComponent from "@/src/components/events/EventComponent";
 
 const EventPage = ({ event }) => {
 
